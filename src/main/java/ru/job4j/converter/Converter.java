@@ -20,7 +20,6 @@ public class Converter {
 
         in = 150;
         expected = 2.5f;
-        float dollar = Converter.rubleToDollar(150);
         out = Converter.rubleToDollar(in);
         System.out.println("150 rubles are 2.5 dollar. Test result : " + passed);
     }
