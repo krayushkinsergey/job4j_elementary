@@ -19,10 +19,6 @@ public class SimpleStringEncoder {
     }
 
     private static String concat(String result, char symbol, int counter) {
-        if (counter == 1) {
-            return result + symbol;
-        } else {
-            return result + symbol + counter;
-        }
+        return (counter == 1) ? result + symbol : result + symbol + counter;
     }
 }
